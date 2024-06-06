@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Tilemap
+  - Enemy
+  - Bullet
+  - Coin
+  - Boss
+  - Item
+  - Item Secret
+  - Item 2
+  - Ladder
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Background
+  - Platform
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 286599479
+    locked: 0
+  - name: Platform
+    uniqueID: 577645421
+    locked: 0
+  - name: Player
+    uniqueID: 1043798683
+    locked: 0
+  - name: UI
+    uniqueID: 1842478863
+    locked: 0
