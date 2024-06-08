@@ -164,7 +164,6 @@ public class PlayerControl : MonoBehaviour
     {
         _verticalInput = Input.GetAxis("Vertical");
         _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, _verticalInput * moveSpeed);
-        _animator.SetBool("isClimb", _verticalInput != 0);
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
