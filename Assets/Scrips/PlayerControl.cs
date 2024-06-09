@@ -154,8 +154,8 @@ public class PlayerControl : MonoBehaviour
         if (verticalInput > 0)
         {   
             //cách 1 
-            // cung cấp 1 lực đẩy lên trên
-            _rigidbody2D.AddForce(new Vector2(0, _jumpForce));
+            // cung cấp 1 lực đẩy lên trên/*
+           /* _rigidbody2D.AddForce(new Vector2(0, _jumpForce));*/
             //cách 2 
             _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, _jumpForce);
         }
@@ -224,6 +224,15 @@ public class PlayerControl : MonoBehaviour
         {
             _isOnLadder = true;
             _rigidbody2D.gravityScale = 0;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Ladder"))
+        {
+            _isOnLadder = false;
+            _rigidbody2D.gravityScale = 1; // Khôi phục trọng lực
+            _animator.SetBool("isClimb", false); // Tắt hoạt ảnh leo
         }
     }
     private void OnCollisionEnter2D(Collision2D other)

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d7f64b5342ef8c945b55368d5ae0fb4c
+guid: 3d909eb56767fe3419f313851b7f9b6a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Boss05-hd_0
+      name: Decorations (32x32)_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 698
-        width: 162
-        height: 211
+        x: 32
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb8b21e22c7ca3a41a0d90aa9df2c1a8
-      internalID: 1129866546
+      spriteID: 0d2a1709e7d52ec49b56d722ebe827e4
+      internalID: 1982775517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss05-hd_1
+      name: Decorations (32x32)_1
       rect:
         serializedVersion: 2
-        x: 166
-        y: 676
-        width: 160
-        height: 212
+        x: 64
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03cd5edccf62c8842832574d363ac058
-      internalID: -296381339
+      spriteID: 020d19ce46f47864ea68017caa7bc509
+      internalID: -956488392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss05-hd_2
+      name: Decorations (32x32)_2
       rect:
         serializedVersion: 2
-        x: 330
-        y: 676
-        width: 162
-        height: 210
+        x: 96
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8d46ab0611ee094ab8728849ac56012
-      internalID: -275091343
+      spriteID: 75c1173573fb241439f555a47b36e3e4
+      internalID: -1906346364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss05-hd_4
+      name: Decorations (32x32)_3
       rect:
         serializedVersion: 2
-        x: 149
-        y: 462
-        width: 161
-        height: 211
+        x: 128
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3fe2172ab41d3e4c984c3ed88659428
-      internalID: 594028344
+      spriteID: 7f686941475b7bd4286963b35bee67eb
+      internalID: 1959403400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss05-hd_5
+      name: Decorations (32x32)_4
       rect:
         serializedVersion: 2
-        x: 313
-        y: 462
-        width: 151
-        height: 212
+        x: 160
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0a423c56bdd43b4fa499313bbbaf2b1
-      internalID: 1309720338
+      spriteID: b5f577ae3bec4154289600ffc6e23508
+      internalID: 1526954826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss05-hd_6
+      name: Decorations (32x32)_5
       rect:
         serializedVersion: 2
-        x: 467
-        y: 430
-        width: 163
-        height: 209
+        x: 32
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25d6e820aa0e1aa4daf0d6981641a625
-      internalID: 1942537896
+      spriteID: e8c4fe8fe2352b94baf2b987146d9a53
+      internalID: 1485518006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss05-hd_7
+      name: Decorations (32x32)_6
       rect:
         serializedVersion: 2
-        x: 632
-        y: 424
-        width: 156
-        height: 194
+        x: 64
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f480d6ee19eb9244d82a12a570803f7f
-      internalID: -949008196
+      spriteID: ab0e134cd87b41b469ce57769a07ee98
+      internalID: -1233967736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss05-hd_10
+      name: Decorations (32x32)_7
       rect:
         serializedVersion: 2
-        x: 144
-        y: 246
-        width: 179
-        height: 213
+        x: 96
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,20 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8eaac8ca5c0bf64e927306c8936a8d9
-      internalID: 483231304
+      spriteID: 2f77b4c16c71ccd4d9a1bdceb5773954
+      internalID: 213913430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss05-hd_11
+      name: Decorations (32x32)_8
       rect:
         serializedVersion: 2
-        x: 327
-        y: 218
-        width: 173
-        height: 209
+        x: 128
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a5cddfa8b2e5fa4390a1f2faea6234c
-      internalID: 2102619267
+      spriteID: 2003992ce9245374e9f336b4f0ea9513
+      internalID: -160493267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss05-hd_12
+      name: Decorations (32x32)_9
       rect:
         serializedVersion: 2
-        x: 503
-        y: 214
-        width: 149
-        height: 207
+        x: 160
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,20 +326,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb6244d898eaf7a4ba90146a97e8e7b7
-      internalID: 2121173201
+      spriteID: b57fa8669b5837248a6c1727f03452ee
+      internalID: -2021032959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss05-hd_13
+      name: Decorations (32x32)_10
       rect:
         serializedVersion: 2
-        x: 654
-        y: 210
-        width: 136
-        height: 202
+        x: 32
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,20 +347,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d5896b0470d47a46a373033bdda393e
-      internalID: 505082986
+      spriteID: 61fd23d7f377d2541b744fd43eecbac1
+      internalID: -636601073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss05-hd_16
+      name: Decorations (32x32)_11
       rect:
         serializedVersion: 2
-        x: 152
-        y: 2
-        width: 170
-        height: 212
+        x: 64
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,20 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23a17ee822987ce4cb73e2ee1a487d56
-      internalID: 2113037573
+      spriteID: 31ceea137a5cd5e43ac0f346ff20f3d1
+      internalID: -78427160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss05-hd_17
+      name: Decorations (32x32)_12
       rect:
         serializedVersion: 2
-        x: 324
-        y: 2
-        width: 154
-        height: 213
+        x: 96
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,20 +389,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77a3e2e2686d071488d585523063b91c
-      internalID: 1741464750
+      spriteID: 014a858f37b212749b60e04bee297259
+      internalID: -1703366008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss05-hd_18
+      name: Decorations (32x32)_13
       rect:
         serializedVersion: 2
-        x: 481
-        y: 2
-        width: 163
-        height: 209
+        x: 128
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,20 +410,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2ea33fdb203ea946986b1633c4a7368
-      internalID: 372663417
+      spriteID: fef694d393001554cab25d66e32227f7
+      internalID: 34252120
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss05-hd_19
+      name: Decorations (32x32)_14
       rect:
         serializedVersion: 2
-        x: 646
-        y: 2
-        width: 154
-        height: 205
+        x: 160
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,8 +431,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 818eb09d5734b3f42a387e6e24322b37
-      internalID: 220369805
+      spriteID: 53ae806062c6e354e82e6c2dab0d87f4
+      internalID: 1834880731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorations (32x32)_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffd726b90fa1c147afdc9413d1290ef
+      internalID: 1335921135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorations (32x32)_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a61b6c05b975d24db0e27eee914c215
+      internalID: 1598382613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorations (32x32)_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbf8b8b17ec4db4c8fa5c02e055afe2
+      internalID: -1018602800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorations (32x32)_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704a45ca610081b45928be45873f9f79
+      internalID: -2084094412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decorations (32x32)_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e433c5893901a54f9d823e47f8b636e
+      internalID: -455446061
       vertices: []
       indices: 
       edges: []
@@ -448,28 +553,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Boss05-hd_0: 1129866546
-      Boss05-hd_1: -296381339
-      Boss05-hd_10: 483231304
-      Boss05-hd_11: 2102619267
-      Boss05-hd_12: 2121173201
-      Boss05-hd_13: 505082986
-      Boss05-hd_14: 1420414180
-      Boss05-hd_15: 370584974
-      Boss05-hd_16: 2113037573
-      Boss05-hd_17: 1741464750
-      Boss05-hd_18: 372663417
-      Boss05-hd_19: 220369805
-      Boss05-hd_2: -275091343
-      Boss05-hd_20: 1236266821
-      Boss05-hd_21: -976410209
-      Boss05-hd_3: -663851238
-      Boss05-hd_4: 594028344
-      Boss05-hd_5: 1309720338
-      Boss05-hd_6: 1942537896
-      Boss05-hd_7: -949008196
-      Boss05-hd_8: 1428225321
-      Boss05-hd_9: -180357431
+      Decorations (32x32)_0: 1982775517
+      Decorations (32x32)_1: -956488392
+      Decorations (32x32)_10: -636601073
+      Decorations (32x32)_11: -78427160
+      Decorations (32x32)_12: -1703366008
+      Decorations (32x32)_13: 34252120
+      Decorations (32x32)_14: 1834880731
+      Decorations (32x32)_15: 1335921135
+      Decorations (32x32)_16: 1598382613
+      Decorations (32x32)_17: -1018602800
+      Decorations (32x32)_18: -2084094412
+      Decorations (32x32)_19: -455446061
+      Decorations (32x32)_2: -1906346364
+      Decorations (32x32)_3: 1959403400
+      Decorations (32x32)_4: 1526954826
+      Decorations (32x32)_5: 1485518006
+      Decorations (32x32)_6: -1233967736
+      Decorations (32x32)_7: 213913430
+      Decorations (32x32)_8: -160493267
+      Decorations (32x32)_9: -2021032959
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
