@@ -62,6 +62,7 @@ public class PlayerControl : MonoBehaviour
         // Hiển thị điểm
         _scoreText.text = _score.ToString();
         _livesText.text = _lives.ToString();
+        _rigidbody2D.gravityScale = 1; // Đảm bảo trọng lực bắt đầu ở giá trị đúng
     }
 
     // Update được gọi mỗi khung hình
@@ -159,7 +160,7 @@ public class PlayerControl : MonoBehaviour
             _score += other.gameObject.GetComponent<Coin>().coinValue;
             _scoreText.text = _score.ToString();
         }
-        else if (other.gameObject.CompareTag("Enemy") || other.gameObject.CompareTag("Boss"))
+        else if (other.gameObject.CompareTag("Enemy") || other.gameObject.CompareTag("Boss") || other.gameObject.CompareTag("Trap"))
         {
             _lives -= 1;
             if (_lives > 0)
@@ -186,7 +187,6 @@ public class PlayerControl : MonoBehaviour
         {
             _isOnLadder = false;
             _rigidbody2D.gravityScale = 1;
-            _animator.SetBool("isClimb", false);
         }
     }
 

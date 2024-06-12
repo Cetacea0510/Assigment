@@ -167,4 +167,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftBoundary: 15.5
   rightBoundary: 27
-  moveSpeed: 1
+  moveSpeed: 1.5
