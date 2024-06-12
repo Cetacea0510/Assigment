@@ -62,7 +62,7 @@ public class PlayerControl : MonoBehaviour
         // Hiển thị điểm
         _scoreText.text = _score.ToString();
         _livesText.text = _lives.ToString();
-        _rigidbody2D.gravityScale = 1; // Đảm bảo trọng lực bắt đầu ở giá trị đúng
+        _rigidbody2D.gravityScale = 5; // Đảm bảo trọng lực bắt đầu ở giá trị đúng
     }
 
     // Update được gọi mỗi khung hình
@@ -147,8 +147,7 @@ public class PlayerControl : MonoBehaviour
     private void Climb()
     {
         _verticalInput = Input.GetAxis("Vertical");
-        _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, _verticalInput * moveSpeed);
-        _animator.SetBool("isClimb", _verticalInput != 0);
+        _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, _verticalInput * moveSpeed); 
     }
 
     private void OnTriggerEnter2D(Collider2D other)
