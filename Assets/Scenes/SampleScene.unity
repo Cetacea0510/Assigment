@@ -29501,6 +29501,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1525434526}
     - target: {fileID: -1033615732070603992, guid: 1b2bb37b6634ba040a68514ff3423e3f, type: 3}
+      propertyPath: _jumpForce
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: -1033615732070603992, guid: 1b2bb37b6634ba040a68514ff3423e3f, type: 3}
       propertyPath: _livesText
       value: 
       objectReference: {fileID: 1967020137}
