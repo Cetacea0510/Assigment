@@ -14,6 +14,7 @@ TagManager:
   - Item 2
   - Ladder
   - Trap
+  - Pad
   layers:
   - Default
   - TransparentFX

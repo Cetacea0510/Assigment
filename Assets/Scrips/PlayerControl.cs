@@ -18,7 +18,12 @@ public class PlayerControl : MonoBehaviour
     private Rigidbody2D _rigidbody2D;
     // Giá trị của lực nhảy
     [SerializeField]
-    private float _jumpForce = 20f;
+    private float _jumpForce = 5f;
+
+    // Lực nhảy thêm khi nhảy lên pad
+    [SerializeField]
+    private float _padJumpForce = 10f;
+    private bool _isOnPad = false;
 
     // Tham chiếu đến collider2D
     private CapsuleCollider2D _capsuleCollider2D;
@@ -62,7 +67,7 @@ public class PlayerControl : MonoBehaviour
         // Hiển thị điểm
         _scoreText.text = _score.ToString();
         _livesText.text = _lives.ToString();
-        _rigidbody2D.gravityScale = 1; // Đảm bảo trọng lực bắt đầu ở giá trị đúng
+        _rigidbody2D.gravityScale = 5; // Đảm bảo trọng lực bắt đầu ở giá trị đúng
     }
 
     // Update được gọi mỗi khung hình
@@ -135,7 +140,8 @@ public class PlayerControl : MonoBehaviour
         var verticalInput = Input.GetKeyDown(KeyCode.Space) ? 1 : 0;
         if (verticalInput > 0)
         {
-            _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, _jumpForce);
+            float jumpPower = _isOnPad ? _jumpForce + _padJumpForce : _jumpForce;
+            _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, jumpPower);
             _animator.SetBool("isJumping", true); // Kích hoạt hoạt ảnh nhảy
         }
         else
@@ -148,7 +154,6 @@ public class PlayerControl : MonoBehaviour
     {
         _verticalInput = Input.GetAxis("Vertical");
         _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, _verticalInput * moveSpeed);
-        _animator.SetBool("isClimb", _verticalInput != 0);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -179,6 +184,10 @@ public class PlayerControl : MonoBehaviour
             _isOnLadder = true;
             _rigidbody2D.gravityScale = 0;
         }
+        else if (other.gameObject.CompareTag("Pad"))
+        {
+            _isOnPad = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -187,6 +196,10 @@ public class PlayerControl : MonoBehaviour
         {
             _isOnLadder = false;
             _rigidbody2D.gravityScale = 1;
+        }
+        else if (other.gameObject.CompareTag("Pad"))
+        {
+            _isOnPad = false;
         }
     }
 
